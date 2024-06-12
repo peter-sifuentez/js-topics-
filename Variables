@@ -7,3 +7,6 @@ let firstName = "Rusty";
 let lastName = "Sifuentez";
 let fullName = firstName + ' ' + lastName;
 console.log(fullName)
+
+let rustyIsdog = "true"; 
+rustyIsdog
