@@ -10,3 +10,7 @@ console.log(fullName)
 
 let rustyIsdog = "true"; 
 rustyIsdog
+
+let englishShip = 5;
+let spanishShip =10;
+let shipBattle = englishShip - spanishShip;
