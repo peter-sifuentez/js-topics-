@@ -2,3 +2,8 @@ let talkRusty = "bark!"; /*Basic declaring a variable*/
 let firstName,
     secondName,
     thridName; /*this is called binding where I can bind variable names as known as a binding list*/  
+
+let firstName = "Rusty";
+let lastName = "Sifuentez";
+let fullName = firstName + ' ' + lastName;
+console.log(fullName)
