@@ -14,3 +14,8 @@ rustyIsdog
 let englishShip = 5;
 let spanishShip =10;
 let shipBattle = englishShip - spanishShip;
+
+
+const constantObject = { "firstvalue" : true }; //const is the third variable 
+constantObject.secondvalue = false;
+const constantObject = { firstvalue :true, secondvalue: false } 
