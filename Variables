@@ -1,7 +1,7 @@
 let talkRusty = "bark!"; /*Basic declaring a variable*/
 let firstName,
     secondName,
-    thridName; /*this is called binding where I can bind variable names as known as a binding list*/  
+    thridName; //this is called binding where I can bind variable names as known as a binding list
 
 let firstName = "Rusty";
 let lastName = "Sifuentez";
@@ -19,3 +19,14 @@ let shipBattle = englishShip - spanishShip;
 const constantObject = { "firstvalue" : true }; //const is the third variable 
 constantObject.secondvalue = false;
 const constantObject = { firstvalue :true, secondvalue: false } 
+
+{
+    let scopedVariable = false;
+    {
+    let scopedVariable = true;
+    }
+    console.log( scopedVariable );
+}
+> false
+//this scoped block allows me to declare a variable but can only be accessed within inside the block. 
+//Here I have initialized inside a descendant block without errors even if it uses the same  identifier as a variable in a parent block
