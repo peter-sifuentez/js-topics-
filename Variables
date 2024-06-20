@@ -30,3 +30,9 @@ const constantObject = { firstvalue :true, secondvalue: false }
 > false
 //this scoped block allows me to declare a variable but can only be accessed within inside the block. 
 //Here I have initialized inside a descendant block without errors even if it uses the same  identifier as a variable in a parent block
+
+let theWorld = "Global"; //This is a Global scope
+function myFun(){
+    theWorld = "Global"; //This is also a Global scope also sometimes known as a implied global 
+    return theWorld 
+}
