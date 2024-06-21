@@ -1,0 +1,7 @@
+Number ( null ); 
+Number ( true ); 
+Number ("The number is 3");
+
+let newObject = new Number ( 25 );
+newObject
+  
