@@ -5,3 +5,4 @@ Number ("The number is 3");
 let newObject = new Number ( 25 );
 newObject
   
+Number( true ); //Passing a false or null will be a 0. But a true will equal to a 1 
