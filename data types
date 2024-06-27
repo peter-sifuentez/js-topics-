@@ -6,3 +6,19 @@ let newObject = new Number ( 25 );
 newObject
   
 Number( true ); //Passing a false or null will be a 0. But a true will equal to a 1 
+
+Number ( "The number 30") //This returns a NaN
+
+let numObject = new Number( 15 );
+
+numObject;
+> Number { 15 }
+
++= //Addition assignment
+-= //Subtraction assignment 
+*= // Multiplication assignment
+/= //Division assignment
+**= Exponent assignment 
+%= Remainder assignment
+
+
