@@ -23,3 +23,5 @@ numObject;
 
 
 let myString = ( 10 );
+
+console.log( "My" + "sting" ); //Concatenation which combines multipe strings. 
