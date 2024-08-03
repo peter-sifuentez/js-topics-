@@ -27,3 +27,5 @@ let myString = ( 10 );
 console.log( "My" + "sting" ); //Concatenation which combines multipe strings. 
 
 //booleans have only two data. True or false 
+
+BigInt //allowing mathematical operations on numbers outside the range allowed by Number
