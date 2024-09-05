@@ -29,3 +29,5 @@ console.log( "My" + "sting" ); //Concatenation which combines multipe strings.
 //booleans have only two data. True or false 
 
 BigInt //allowing mathematical operations on numbers outside the range allowed by Number
+
+let mySymbol = new Symbol(); // this cannot be done because the proporties are given to when using standard menthods 
